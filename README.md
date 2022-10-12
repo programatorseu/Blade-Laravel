@@ -118,3 +118,18 @@ edit file :
     </div>
 </x-form>
 ```
+
+## 5. Modal
+
+-   alpine (Based on simple click and x-data)
+-   set up trigger - param name element - new thing\
+
+```php
+    <x-modal
+        title="Deactivate Your Account?"
+        submit-label="Deactivate"
+    >
+        <x-slot name="trigger">
+            <button @click="on = true">Show Modal</button>
+        </x-slot>
+```
