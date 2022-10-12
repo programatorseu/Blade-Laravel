@@ -1,5 +1,9 @@
 <x-layout>
-    <x-section> Hello There</x-section>
-    <x-section> Hello 2</x-section>
+    <x-flash type="error">
+        You are now logged out
+    </x-flash>
 
+    <x-flash class="mt-10">
+        You are now logged out
+    </x-flash>
 </x-layout>
