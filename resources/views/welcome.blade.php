@@ -16,6 +16,18 @@
         </x-slot>
         Are you really sure you want to deactivate your account? All of your data will be permanently removed. This action cannot be undone.
     </x-modal>
+    
+    <x-section>
+        <div>
+            <x-dropdown>
+                <x-slot name="trigger">
+                    <button>Click Me</button>
+                </x-slot>
 
-
+                <x-dropdown-link href="/">One</x-dropdown-link>
+                <x-dropdown-link href="/">Two</x-dropdown-link>
+                <x-dropdown-link href="/">Three</x-dropdown-link>
+            </x-dropdown>
+        </div>
+    </x-section>
 </x-layout>
