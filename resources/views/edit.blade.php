@@ -30,5 +30,8 @@
                 </button>
             </div>
         </x-form>
+        <x-form-button method="DELETE" action="" class="bg-blue-500 text-white rounded py-2 px-4 hover:bg-blue-300">
+            Delete
+        </x-form-button>
     </x-section>
 </x-layout>
